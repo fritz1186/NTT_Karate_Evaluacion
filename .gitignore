@@ -10,7 +10,7 @@ target/
 .idea/libraries/
 .idea/
 
-.src/test/examples
+.src/test/java/examples/
 
 *.iws
 *.iml
