@@ -10,6 +10,8 @@ target/
 .idea/libraries/
 .idea/
 
+.src/test/examples
+
 *.iws
 *.iml
 *.ipr
