@@ -15,7 +15,6 @@ Feature: Casos de Prueba del Metodo POST
     And print response
     * assert response.code == 200
     * assert response.message == petID
-
     * match response == schema
 
   Scenario: Actualizar nombre y estado de la mascota: Resultado No exitoso
@@ -30,6 +29,3 @@ Feature: Casos de Prueba del Metodo POST
     * assert response.code == 404
     * assert response.message == "not found"
     * match response  == schema
-
-
-
